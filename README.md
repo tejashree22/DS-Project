@@ -28,47 +28,63 @@ To give a clear image of how the influence has changed over time and in differen
 **Dataset**
 
 ●	States = states.
+
 ●	Date = the day on which the rate of unemployment was noted
+
 ●	Frequency = Monthly Frequency Measurement
+
 ●	The percentage of jobless persons in each Indian state is known as the estimated unemployment rate (%).
+
 ●	Estimated Employed = Total number of workers
+
 ●	Estimated Labor Participation Rate (%) = This is the percentage of the working population in the 16–64 age range that are either employed or looking for work in the economy.
 
-**Preparing Data Model Evaluation **
+**Preparing Data Model Evaluation**
 
 Initial Exploration and Data Loading:
 
 ●	The first thing your script does is load data from a Google Drive-hosted CSV file.
+
 ●	Each column in your DataFrame has relevant information printed out about it by the dataset_info function.
+
 ●	The data has a section where you may verify any missing values.
 
 Preparing data:
 
 ●	You've mentioned managing date formats, changing data types, and renaming columns.
+
 ●	The method used to transform "Region" and "Frequency" into categorical categories is suitable.
+
 ●	For temporal analysis, obtaining the month and year from the 'Date' column is helpful.
 
 Analytical Statistics:
 
 ●	For some columns, descriptive statistics are calculated.
+
 ●	The process of computing various statistics and grouping data by area is done properly.
+
 ●	An extended correlation heatmap, which is helpful for determining correlations between variables, is created by your script.
 
 Information Visualization:
 
 ●	Matplotlib and Plotly are used to construct a variety of visualizations, including box plots, scatter plots, histograms, and bar charts.
+
 ●	Your study gains dynamism when you utilize Plotly for interactive graphs (such as geospatial plots and treemaps).
+
 ●	Adding distinct color schemes and template customizations to plots improves their visual attractiveness.
 
 Classifying Data:
 
 ●	Developing a function to classify states according to the extent of their influence on unemployment.
+
 ●	putting the DataFrame through this classification and displaying the outcomes as a bar chart.
 
 Grouping Using k-Means:
 
 ●	The k-Means clustering technique and data standardization are included in the script.
+
 ●	It is a good idea to use the Elbow approach to figure out the ideal number of clusters.
+
 ●	Understanding the grouping is aided by seeing the clusters.
 
 The script is extensive, addressing every facet of data analysis, from sophisticated visualization and clustering to fundamental investigation. It offers a thorough analysis of unemployment statistics and ideas that may be useful for comprehending economic patterns, particularly in light of the epidemic. In order to meet various analytical demands, a multifaceted knowledge of the data is ensured through the use of several display methods.
